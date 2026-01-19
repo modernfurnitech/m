@@ -4,7 +4,22 @@
   <meta charset="UTF-8">
   <title>Modern Furnitech Solutions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
+  <.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 999;
+}
+.whatsapp-float:hover {
+  background-color: #1ebe5d;
+}>
     body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0f0f0f;color:#fff}
     header{background:#000;padding:20px 40px;display:flex;justify-content:space-between;align-items:center}
     header h1{margin:0;font-size:26px;letter-spacing:1px}
@@ -68,5 +83,7 @@
   </div>
 </footer>
 
-</body>
+</body><a href="https://wa.me/9234736961" class="whatsapp-float" target="_blank">
+  <i class="fa fa-whatsapp"></i> Order via WhatsApp
+</a>
 </html>
