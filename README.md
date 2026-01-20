@@ -69,7 +69,6 @@
 
     .card h4{color:#caa24d;}
 
-    /* PRODUCT SECTION */
     .product-box{
       display:grid;
       grid-template-columns:1fr 1fr;
@@ -101,11 +100,6 @@
 
     .product-details li{margin-bottom:10px;}
 
-    .note{
-      color:#ccc;
-      margin-top:15px;
-    }
-
     footer{
       background:#000;
       padding:30px;
@@ -113,6 +107,7 @@
       color:#aaa;
     }
 
+    /* 🔥 WHATSAPP FLOATING FINAL */
     .whatsapp-float{
       position:fixed;
       bottom:20px;
@@ -120,10 +115,25 @@
       background:#25D366;
       color:#fff;
       border-radius:50px;
-      padding:12px 18px;
+      padding:14px 22px;
       text-decoration:none;
       font-weight:bold;
-      z-index:999;
+      z-index:9999;
+      display:flex;
+      align-items:center;
+      box-shadow:0 4px 12px rgba(0,0,0,0.4);
+      animation:pulse 1.5s infinite;
+    }
+
+    .whatsapp-float i{
+      font-size:22px;
+      margin-right:8px;
+    }
+
+    @keyframes pulse{
+      0%{transform:scale(1);}
+      50%{transform:scale(1.08);}
+      100%{transform:scale(1);}
     }
 
     @media(max-width:768px){
@@ -159,7 +169,6 @@
   </div>
 </section>
 
-<!-- SOFA PRODUCT SECTION -->
 <section>
   <h3>Our Products</h3>
 
@@ -176,32 +185,17 @@
 
       <ul>
         <li><b>Fabric:</b> Velvet (Mousa)</li>
-        <li><b>Frame Material:</b> Liptus Wood + Plywood</li>
-        <li><b>Seating Capacity:</b> 8 Seater</li>
-        <li><b>Foam:</b> Harmony HR Foam</li>
-        <li><b>Delivery:</b> Free of Cost</li>
+        <li><b>Frame:</b> Liptus Wood + Plywood</li>
+        <li><b>Seater:</b> 8 Seater</li>
+        <li><b>Foam:</b> HR Foam</li>
+        <li><b>Delivery:</b> Free</li>
       </ul>
 
-      <p class="note">
-        <b>Note:</b> You can customize size and design.  
-        Choose any colour or fabric material.
-      </p>
-
-      <a href="https://wa.me/919234736961?text=I%20want%20to%20order%208%20Seater%20Luxury%20Sofa" 
+      <a href="https://wa.me/919234736961?text=Hello%20Modern%20Furnitech%20Solutions,%20I%20want%20to%20order%208%20Seater%20Luxury%20Sofa" 
          class="btn" target="_blank">
         Order on WhatsApp
       </a>
     </div>
-  </div>
-</section>
-
-<section>
-  <h3>Why Choose Us</h3>
-  <div class="why">
-    <div class="card">Premium Quality Materials</div>
-    <div class="card">Modern & Custom Designs</div>
-    <div class="card">Affordable Pricing</div>
-    <div class="card">Trusted by Customers</div>
   </div>
 </section>
 
@@ -211,8 +205,11 @@
   © 2026 Modern Furnitech Solutions
 </footer>
 
-<a href="https://wa.me/919234736961" class="whatsapp-float" target="_blank">
-  <i class="fa fa-whatsapp"></i> Order via WhatsApp
+<!-- ✅ FLOATING WHATSAPP -->
+<a href="https://wa.me/919234736961?text=Hello%20Modern%20Furnitech%20Solutions,%20I%20want%20to%20know%20about%20your%20products" 
+   class="whatsapp-float" 
+   target="_blank">
+  <i class="fa fa-whatsapp"></i> WhatsApp
 </a>
 
 </body>
